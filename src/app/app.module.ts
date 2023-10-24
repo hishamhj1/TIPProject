@@ -12,6 +12,7 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { ProgramComponent } from './program/program.component';
 import { DetailpageComponent } from './detailpage/detailpage.component';
 import { CalculatepageComponent } from './calculatepage/calculatepage.component';
+import { TeacherComponent } from './teacher/teacher.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CalculatepageComponent } from './calculatepage/calculatepage.component'
     ForgotpasswordComponent,
     ProgramComponent,
     DetailpageComponent,
-    CalculatepageComponent
+    CalculatepageComponent,
+    TeacherComponent
   ],
   imports: [
     BrowserModule,

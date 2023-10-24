@@ -9,6 +9,8 @@ import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.compone
 import { ProgramComponent } from './program/program.component';
 import { DetailpageComponent } from './detailpage/detailpage.component';
 import { CalculatepageComponent } from './calculatepage/calculatepage.component';
+import { TeacherComponent } from './teacher/teacher.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'homepage', pathMatch: 'full' },
@@ -20,6 +22,7 @@ const routes: Routes = [
   {path:'forgotpassword',component:ForgotpasswordComponent},
   {path:'program',component:ProgramComponent},
   {path:'detailpage',component:DetailpageComponent},
+  {path:'teacher',component:TeacherComponent},
   {path:'calculatepage',component:CalculatepageComponent}
 ];
 
